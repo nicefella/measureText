@@ -1,0 +1,10 @@
+{
+  "name": "measureText",
+  "version": "1.0.0",
+  "description": "measure text width for a given text, fontFamily and fontSize",
+  "main": "index.js",
+  "repository": "https://github.com/nicefella/measureText.git",
+  "author": "nicefella <is.baygin@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
