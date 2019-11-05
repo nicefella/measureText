@@ -3,8 +3,7 @@ import fontWidths from './fontWidths.json';
 const defaultFontFamily = "'Source Sans Pro', Arial, sans-serif";
 const defaultFontSize = "12px";
 
-export default {
-  measureText : (fontFamily, fontSize,  text) => {
+export default (fontFamily, fontSize,  text) => {
     if (text === undefined) text = "undefined";
     if (text === null) text = "null";
     if (text === NaN) text = "NaN";
@@ -21,7 +20,6 @@ export default {
        }
         return w
     }
-}
 
 /** GENERATOR FUNCTION
  * 
